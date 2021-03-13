@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat' sans-serif;
+    text-align: center;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+h2{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.title-heading{
+    text-align: left;
+}
+/* navbar */
+
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+#title {
+    background-color: #ff4c68;
+    
+   
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Handlee', cursive;
+    font-weight: 900;
+    font-size: 2rem;
+    /* color: purple; */
+}
+
+/* download-button */
+
+.download-button{
+    margin: 5% 3%;
+}
+
+/* title image  */
+ 
+@media(max-width:991px){
+    #title{
+        text-align: center;
+    }
+}
+/* mobile images */
+
+
+/* features */
+.feature-title-h3{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+}
+
+#features{
+    position: relative;
+    background-color: white;
+    padding: 5% 12%;
+    
+    }
+
+.row1,.row2,.row3{
+    padding: 5%;
+}
+
+.p-color{
+    color: #8f8f8f;
+}
+
+
+.fas{
+    color:#ef8172;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials{
+    background-color:#ff4c68;
+    color: white;
+    
+
+    
+}
+.carousel-item{
+    padding: 7% 15%;  
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+#press{
+    background-color:#ff4c68;
+      
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    
+}
+
+.pricing-column-1,.pricing-column-2,.pricing-column-3{
+    padding: 3% 2%;
+}
+
+.price-btn{
+    color: white;
+    background-color: #ff4c68;
+}
+
+/* <!-- Call to Action --> */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 3% 20%;
+}
+#footer{
+    
+    background-color: #fff;
+    padding: 3% ;
+}
+.icons{
+    margin:20px;
+}
+.ico{
+    margin:5px;
+}
+/* cta heading */
+.heading3{
+    font-size: 3rem;
+}
